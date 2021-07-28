@@ -1,0 +1,39 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 0.1fr 1fr 1fr;
+    overflow-x: hidden;
+}
+
+#loginMessage {
+    display: grid;
+    justify-items: center;
+    align-items: end;
+    width: 100vw;
+    height: 30vh;
+    grid-row: 2;
+    margin-bottom: 10vh;
+}
+
+#extraInfo {
+    justify-items: center;
+    align-items: start;
+    width: 100vw;
+    height: 40vh;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-top: 2px black solid;
+}
+
+.logoutBtnStyle {
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    justify-self: end;
+    margin-right: 10vw;
+}

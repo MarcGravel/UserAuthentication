@@ -1,0 +1,40 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#loginForm {
+    width: 30vw;
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    background-color: burlywood;
+    padding: 2vh 2vw 2vh 2vw;
+    border-radius: 20px;
+}
+
+#emailInput {
+    width: 13vw;
+    height: 3vh;
+    grid-area: 2 / 1;
+}
+
+#passwordInput {
+    width: 13vw;
+    height: 3vh;
+    grid-area: 2 / 2;
+}
+
+#submitBtn {
+    width: 7vw;
+    height: 3vh;
+    grid-area: 3 / 2;
+    justify-self: end;
+    margin-right: 2vw;
+    background-color: #24a0ed;
+    color: white;
+    border-radius: 12px;
+}
